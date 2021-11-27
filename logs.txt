@@ -1,2 +1,494 @@
 info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 10:25:45~~~~~~~~~~~~~~~
 info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:22:47~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:26:9~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:27:1~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:28:9~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:28:36~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:29:17~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:29:56~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:30:28~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:32:25~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:35:51~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: request url: /api/flights/
+info: request body: [object Object]
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:36:33~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: request url: /api/flights/
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:40:24~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: request url: /api/flights/
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:40:51~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: request url: /api/flights/
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:44:12~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: request url: /api/flights/
+info: request body: [object Object]
+info: request method: GET
+info: request url: /api/flights/
+info: request body: [object Object]
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:45:42~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: Get all flights
+info: request url: /api/flights/
+info: request body: [object Object]
+info: request method: GET
+info: request url: /favicon.ico
+info: request body: [object Object]
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:45:53~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: Get all flights
+info: request url: /api/flights/
+info: request body: [object Object]
+info: request method: GET
+info: request url: /favicon.ico
+info: request body: [object Object]
+info: something is broken!
+info: request method: GET
+info: Get all flights
+info: request url: /api/flights/
+info: request body: [object Object]
+info: request method: GET
+info: request url: /favicon.ico
+info: request body: [object Object]
+info: something is broken!
+info: request method: GET
+info: request url: /api/flights/3
+info: request body: [object Object]
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:52:7~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: Get specific flight number undefined
+info: request url: /api/flights/3
+info: didn't found flight number undefined
+info: request method: GET
+info: request url: /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 12:58:45~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: Get specific flight number /3
+info: request url: /api/flights/3
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:1:21~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: Get specific flight number /3
+info: request url: /api/flights/3
+info: request method: GET
+info: request url: /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:1:29~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: Get specific flight number /3
+info: request url: /api/flights/3
+info: request method: GET
+info: request url: /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:2:45~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: Get specific flight number /3
+info: request url: /api/flights/3
+info: request method: GET
+info: request url: /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:4:26~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: request method: GET
+info: REQ: Get specific flight number /3
+info: request url: /api/flights/3
+info: RES: print flight number 3
+info: request method: GET
+info: request url: /favicon.ico
+info: something is broken!
+info: request method: GET
+info: REQ: Get specific flight number /2
+info: request url: /api/flights/2
+info: RES: print flight number 2
+info: request method: GET
+info: request url: /favicon.ico
+info: something is broken!
+info: request method: GET
+info: REQ: Get specific flight number /1
+info: request url: /api/flights/1
+info: RES: didn't found flight number 1
+info: request method: GET
+info: request url: /favicon.ico
+info: something is broken!
+info: request method: GET
+info: REQ: Get specific flight number /2
+info: request url: /api/flights/2
+info: RES: print flight number 2
+info: request method: GET
+info: request url: /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:6:36~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:7:43~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: GOT REQ: method- GET url- /api/flights/1
+info: REQ: Get specific flight number /1
+info: RES: print flight number 1
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: GOT REQ: method- GET url- /api/flights/3
+info: REQ: Get specific flight number /3
+info: RES: print flight number 3
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: GOT REQ: method- GET url- /api/flights/13
+info: REQ: Get specific flight number /13
+info: RES: didn't found flight number 13
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: GOT REQ: method- GET url- /api/flights/dsfsdf
+info: REQ: Get specific flight number /dsfsdf
+info: RES: didn't found flight number NaN
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:10:35~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/dsfsdf
+info: REQ: Get specific flight number /dsfsdf
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:11:26~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/dsfsdf
+info: REQ: Get specific flight number /dsfsdf
+info: RES: INPUT IS NAN ERROR NaN
+info: RES: didn't found flight number NaN
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:12:16~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/dsfsdf
+info: REQ: Get specific flight number /dsfsdf
+info: RES: INPUT IS NAN ERROR dsfsdf
+info: RES: didn't found flight number dsfsdf
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:12:46~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/dsfsdf
+info: REQ: Get specific flight number /dsfsdf
+info: RES: INPUT IS NAN ERROR "dsfsdf"
+info: RES: didn't found flight number dsfsdf
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: didn't found flight number 0
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: GOT REQ: method- GET url- /api/flights/3
+info: REQ: Get specific flight number /3
+info: RES: print flight number 3
+info: GOT REQ: method- GET url- /favicon.ico
+info: something is broken!
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:19:24~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/3
+info: REQ: Get specific flight number /3
+info: RES: print flight number 3
+info: GOT REQ: method- GET url- /favicon.ico
+info: GOT REQ: method- GET url- /api/flights/1
+info: REQ: Get specific flight number /1
+info: RES: print flight number 1
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:35:9~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: didn't found flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:47:8~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:48:36~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:50:38~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:52:7~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:52:46~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:53:12~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:57:52~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:58:23~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 13:58:56~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 14:1:42~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 14:8:58~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 14:9:27~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 14:15:8~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 14:19:18~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 14:30:28~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 14:32:18~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 14:33:16~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 15:7:38~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: RES:add flight number 4
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 15:24:20~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: RES: INPUT ERROR "[object Object]"
+info: GOT REQ: method- POST url- /api/flights/
+info: add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: didn't found flight number 0
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 15:54:39~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: RES: delete flight number 3
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 15:57:37~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: RES: delete flight number 3
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 16:0:30~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: RES: delete flight number 3
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 16:3:38~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: RES: delete flight number 3
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 16:5:47~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: didn't found flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: RES: didn't found flight number sdfsdf
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: RES: delete flight number 3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: RES: didn't found flight number 5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: RES: didn't found flight number fsfsdfs
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 16:6:31~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: didn't found flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: RES: didn't found flight number sdfsdf
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: RES: delete flight number 3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: RES: didn't found flight number 5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: RES: didn't found flight number fsfsdfs
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 27/11/2021 | 16:9:31~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: didn't found flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: RES: delete flight number 3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: RES: didn't found flight number 5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: print all flights

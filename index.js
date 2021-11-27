@@ -20,12 +20,18 @@ var datetime = currentdate.getDate() + "/" + (currentdate.getMonth()+1)  + "/" +
 " | " + currentdate.getHours() + ":" + currentdate.getMinutes() + ":" + currentdate.getSeconds();
 logger.info(`~~~~~~~~~~~~~~~~Start session ${datetime}~~~~~~~~~~~~~~~`);
 /*~~~~~~~~~~ROUTERS SET UP~~~~~~~~~~~~~*/
+app.use("/favicon.ico",() => { console.log("get favicon request"); }); //favicon ignore
+app.use((req, res, next) => { //DEBUGGING & LOGS
+    logger.info(`GOT REQ: method- ${req.method} url- ${req.url}`);
+    next();
+});
 const { flightsRouter } = require("./routers/flightsRouter");
-app.use("/api/filghts", flightsRouter);    //binding between router and application*/
+app.use("/api/flights", flightsRouter);    //binding between router and application*/
 const { authorizationRouter } = require("./routers/authorizationRouter");;
 app.use("/auth", authorizationRouter);    //binding between router and application*/
 /*~~~~~~~~~BAD ROUTE~~~~~~~~*/
 app.use((req, res) => { //default router put in end
+    logger.info(`something is broken!`);
     res.status(400).send(`something is broken!`);
 });
 /*~~~~~~~~~LISTENNING~~~~~~~*/

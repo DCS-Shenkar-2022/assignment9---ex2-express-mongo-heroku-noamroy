@@ -492,3 +492,5 @@ info: RES: INPUT IS NAN ERROR "fsfsdfs"
 info: GOT REQ: method- GET url- /api/flights/
 info: REQ: Get all flights
 info: RES: print all flights
+info: ~~~~~~~~~~~~~~~~Start session 28/11/2021 | 19:26:34~~~~~~~~~~~~~~~
+info: Express server is running on port 3000

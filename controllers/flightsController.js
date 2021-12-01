@@ -1,4 +1,3 @@
-//const { flights } = require('../data/flights'); // for json
 const { json } = require('express');
 const winston_lib = require('winston');
 const Flight = require('../models/flight');
@@ -128,7 +127,6 @@ exports.flightsController = {
                 logger.info(`RES: Didn't find flight number: ${_id}!`);
                 res.status(404).send(`RES: Didn't find flight number: ${_id}!`); 
             }
-            
         }
     }
 };

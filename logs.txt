@@ -1241,3 +1241,95 @@ info: RES: delete flight number: 3
 info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
 info: REQ: delete specific flight number fsfsdfs
 info: RES: input is nan error "fsfsdfs"
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 17:54:6~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number undefined
+info: RES: input is nan error "undefined"
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 204458749
+info: RES: Didn't find user number: 204458749!
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 17:56:33~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 204458749
+info: RES: Didn't find user number: 204458749!
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 17:58:41~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 204458749
+info: RES: Didn't find user number: 204458749!
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 3
+info: RES: authentication success: 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: RES: FAIL authentication test
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: RES: FAIL authentication test
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 3
+info: RES: authentication success: 3
+info: RES: success generate token
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 3
+info: RES: authentication success: 3
+info: RES: success generate token
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 3
+info: RES: authentication success: 3
+info: RES: success generate token
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 3
+info: RES: authentication success: 3
+info: RES: success generate token
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 3
+info: RES: authentication success: 3
+info: RES: success generate token
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 18:24:34~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 3
+info: RES: authentication success: 3
+info: RES: success generate token
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token
+info: REQ: Get specific id number 3
+info: RES: authentication success: 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: START authentication test
+info: REQ: Get specific flight number 0
+info: RES: Didn't find flight number: 0!
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: REQ: Get specific flight number 2
+info: RES: get flight number: 2
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: AUTHENTICATION ERROR: JsonWebTokenError: invalid token
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: REQ: Get specific flight number 2
+info: RES: get flight number: 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: START authentication test
+info: RES: FAIL authentication test
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: REQ: Get all flights
+info: RES: get all flights

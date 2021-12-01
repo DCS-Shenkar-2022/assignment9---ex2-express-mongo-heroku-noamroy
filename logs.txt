@@ -494,3 +494,750 @@ info: REQ: Get all flights
 info: RES: print all flights
 info: ~~~~~~~~~~~~~~~~Start session 28/11/2021 | 19:26:34~~~~~~~~~~~~~~~
 info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 9:50:54~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 9:54:4~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: didn't found flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: didn't found flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: didn't found flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: didn't found flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:1:10~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: print flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: print flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:2:2~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: RES: print flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: RES: print flight number 2
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:6:3~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:7:52~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:8:57~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: return all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:13:29~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:42:40~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:48:25~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:49:42~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 10:55:51~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number /0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number /2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number /sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:0:41~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:6:23~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:6:47~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:8:50~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 1
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:42:53~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 1
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:44:52~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:45:26~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:46:31~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 1
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:48:3~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 1
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:51:31~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 1
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:52:15~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:53:6~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 1
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:54:1~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:55:2~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:56:22~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 11:59:43~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:1:18~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: get HERE1
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:2:29~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ADDING: departure_date: 2022-04-16
+info: ADDING: departure_location: Denver
+info: ADDING: arrival_date: 2022-04-17
+info: ADDING: arrival_location: Jerusalem
+info: get HERE1
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:3:49~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ADDING: departure_date: 2022-04-16
+info: ADDING: departure_location: Denver
+info: ADDING: arrival_date: 2022-04-17
+info: ADDING: arrival_location: Jerusalem
+info: get HERE1
+info: RES: add flight number 0
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:4:39~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ADDING: departure_date: 2022-04-16
+info: ADDING: departure_location: Denver
+info: ADDING: arrival_date: 2022-04-17
+info: ADDING: arrival_location: Jerusalem
+info: get HERE1
+info: RES: add flight number 0
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:5:26~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ADDING: departure_date: 2022-04-16
+info: ADDING: departure_location: Denver
+info: ADDING: arrival_date: 2022-04-17
+info: ADDING: arrival_location: Jerusalem
+info: get HERE1
+info: RES: add flight number 0
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:7:49~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ADDING: departure_date: 2022-04-16
+info: ADDING: departure_location: Denver
+info: ADDING: arrival_date: 2022-04-17
+info: ADDING: arrival_location: Jerusalem
+info: RES: add flight number 4
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:13:4~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:14:33~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 0
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:18:15~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 12:23:21~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 13:19:39~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 13:20:38~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 13:21:25~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 5
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 13:32:53~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight
+info: Error updat one flight from db: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 13:49:1~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 13:52:23~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number /3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number /5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number /fsfsdfs
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 13:57:41~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number 0
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number 3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number 5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:5:27~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:6:55~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: 
+info: RES: get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:7:54~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: 
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:8:37~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: 
+info: RES: NO FLIGHTS IN DB!
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: {
+  _id: new ObjectId("61a765e03f5d13ef0b3eb3db"),
+  departure_date: 2022-01-13T00:00:00.000Z,
+  departure_location: 'Amsterdam',
+  arrival_date: 2022-01-14T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 1
+},{
+  _id: new ObjectId("61a765e03f5d13ef0b3eb3dc"),
+  departure_date: 2022-02-17T00:00:00.000Z,
+  departure_location: 'Brussels',
+  arrival_date: 2022-02-17T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 2
+},{
+  _id: new ObjectId("61a765e03f5d13ef0b3eb3dd"),
+  departure_date: 2022-03-03T00:00:00.000Z,
+  departure_location: 'Chicago',
+  arrival_date: 2022-03-04T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 3
+}
+info: RES: get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:13:1~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number 0
+info: RES: Didn't find flight number: 0!
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number 2
+info: RES: get flight number: 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number 3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number 5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:16:37~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number 0
+info: RES: Didn't find flight number: 0!
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number 2
+info: RES: get flight number: 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number 3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number 5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:19:13~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: update an flight number: 1
+info: {
+  _id: new ObjectId("61a767933f5d13ef0b40290a"),
+  departure_date: 2022-01-13T00:00:00.000Z,
+  departure_location: 'UPDATE-Falafel',
+  arrival_date: 2022-01-14T00:00:00.000Z,
+  arrival_location: 'Shawarma',
+  id: 1
+}
+info: GOT HERE
+info: GOT REQ: method- PATCH url- /api/flights/6
+info: update an flight number: 6
+info: 
+info: RES: Didn't find flight number: 6!
+info: GOT HERE
+info: Error update one flight from db: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:21:45~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- PATCH url- /api/flights/6
+info: update an flight number: 6
+info: 
+info: RES: Didn't find flight number: 6!
+info: GOT HERE
+info: Error update one flight from db: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:22:57~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- PATCH url- /api/flights/6
+info: update an flight number: 6
+info: 
+info: RES: Didn't find flight number: 6!
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:24:36~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: Get specific flight number 0
+info: RES: Didn't find flight number: 0!
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: Get specific flight number 2
+info: RES: get flight number: 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: Get specific flight number sdfsdf
+info: RES: INPUT IS NAN ERROR "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: POST add an flight
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number 3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number 5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number fsfsdfs
+info: RES: INPUT IS NAN ERROR "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: REQ: update an flight number: 1
+info: GOT REQ: method- PATCH url- /api/flights/6
+info: REQ: update an flight number: 6
+info: RES: Didn't find flight number: 6!
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number 5
+info: ~~~~~~~~~~~~~~~~Start session 1/12/2021 | 14:31:36~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: delete specific flight number 5
+info: RES: Didn't find flight number: 5!
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: delete specific flight number 3
+info: RES: delete flight number: 3
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: delete specific flight number fsfsdfs
+info: RES: input is nan error "fsfsdfs"

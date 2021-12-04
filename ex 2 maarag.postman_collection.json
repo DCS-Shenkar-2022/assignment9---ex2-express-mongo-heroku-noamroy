@@ -29,12 +29,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/0",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/0",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -65,12 +66,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/2",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/2",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -101,12 +103,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/sdfsdf",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/sdfsdf",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -137,12 +140,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -187,12 +191,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/flights/",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -232,12 +237,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/flights/",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -268,12 +274,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -309,12 +316,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/3",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/3",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -345,12 +353,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/5",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/5",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -381,12 +390,13 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/fsfsdfs",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/fsfsdfs",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -417,12 +427,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -467,12 +478,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/flights/1",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/1",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -512,12 +524,13 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:3000/api/flights/6",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/6",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -548,12 +561,13 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "http://localhost:3000/api/flights/",
-							"protocol": "http",
+							"raw": "https://ex2-flights.herokuapp.com/api/flights/",
+							"protocol": "https",
 							"host": [
-								"localhost"
+								"ex2-flights",
+								"herokuapp",
+								"com"
 							],
-							"port": "3000",
 							"path": [
 								"api",
 								"flights",
@@ -608,15 +622,15 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/auth/",
-					"protocol": "http",
+					"raw": "https://ex2-flights.herokuapp.com/auth",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"ex2-flights",
+						"herokuapp",
+						"com"
 					],
-					"port": "3000",
 					"path": [
-						"auth",
-						""
+						"auth"
 					]
 				}
 			},

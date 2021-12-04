@@ -3090,3 +3090,8 @@ info: REQ: START authentication test
 info: RES: SUCCESS authentication test
 info: REQ: POST add an flight
 info: RES: Input error!
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 13:50:15~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~GOT REQ: method- POST url- /auth~~~~~~
+info: REQ: Get Token for id number 3
+info: RES: success generate token

@@ -26,8 +26,10 @@ app.use((req, res, next) => { //DEBUGGING & LOGS
 });
 /*~~~~~~~~~AUTHENTICATION REQUEST AND CHECK~~~~~~~~~~~~*/
 const { authorizationRouter } = require("./routers/authorizationRouter");
+console.log (`got here 1`);
 app.use('', authorizationRouter);  //authentication route*/
 /*~~~~~~~~~~ROUTERS SET UP~~~~~~~~~~~~~*/
+console.log (`got here 2`);
 const { flightsRouter } = require("./routers/flightsRouter");
 app.use("/api/flights", flightsRouter);    //binding between router and application*/
 /*~~~~~~~~~BAD ROUTE~~~~~~~~*/

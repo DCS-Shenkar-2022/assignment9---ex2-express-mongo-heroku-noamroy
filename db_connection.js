@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const consts = require('./constants');
 const { DB_HOST, DB_USER, DB_PASS } = consts;
 const url = DB_HOST;
-
+console.log (`got here 1.1`);
 const options = {
     useNewUrlParser: true,
     useUnifiedTopology: true,

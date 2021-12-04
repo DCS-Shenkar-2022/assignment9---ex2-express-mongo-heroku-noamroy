@@ -26,10 +26,8 @@ app.use((req, res, next) => { //DEBUGGING & LOGS
 });
 /*~~~~~~~~~AUTHENTICATION REQUEST AND CHECK~~~~~~~~~~~~*/
 const { authorizationRouter } = require("./routers/authorizationRouter");
-console.log (`got here 1`);
 app.use('', authorizationRouter);  //authentication route*/
 /*~~~~~~~~~~ROUTERS SET UP~~~~~~~~~~~~~*/
-console.log (`got here 2`);
 const { flightsRouter } = require("./routers/flightsRouter");
 app.use("/api/flights", flightsRouter);    //binding between router and application*/
 /*~~~~~~~~~BAD ROUTE~~~~~~~~*/
@@ -39,4 +37,4 @@ app.use((req, res) => { //default router put in end
 });
 /*~~~~~~~~~LISTENNING~~~~~~~*/
 logger.info(`Express server is running on port ${port}`);
-app.listen(port, () => console.log(`Express server is running on port ${port}`));
+app.listen(port, () => logger.info(`Express server is running on port ${port}`));

@@ -27,7 +27,10 @@ exports.authorizationController = {
         }
         else{
             let newUser = await User.find({ id: Number(_id)})
-            .catch(err => logger.info(`Error getting the data from db: ${err}`));
+            .catch(err => {
+                logger.info(`Error getting the data from db: ${err}`);
+                res.status(500).json({status: 500 , msg: `Server error`});
+            });
             if (newUser.length!=0){
                 const currentDate = new Date();
                 const _tokenPass = generateAccessToken(_id);

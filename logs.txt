@@ -2434,3 +2434,456 @@ info: REQ: Get specific flight number 0
 info: RES: SUCCESS authentication test
 info: 
 info: RES: Didn't find flight number: 0!
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 10:0:4~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id numer 3
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 10:7:53~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id numer 3
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 10:17:42~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id numer 3
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 10:19:13~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 10:19:42~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 10:20:30~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: Error update token of user from db: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:7:19~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: Error update token of user from db: Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:8:50~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: Bearer 0.F84F6A9E7E1E2
+info: 
+info: REQ: Get specific flight number 2
+info: RES: un-authorized: wrong token
+info: {
+  _id: new ObjectId("61a9e79f3f5d13ef0b21174c"),
+  departure_date: 2021-12-14T00:00:00.000Z,
+  departure_location: 'Brussels',
+  arrival_date: 2021-12-15T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 2
+}
+info: DAYS: 11
+info: {"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89,"msg":"SUCCESS"}
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:11:20~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: 0.F84F6A9E7E1E2
+info: 
+info: REQ: Get specific flight number 2
+info: RES: un-authorized: wrong token
+info: {
+  _id: new ObjectId("61a9e79f3f5d13ef0b21174c"),
+  departure_date: 2021-12-14T00:00:00.000Z,
+  departure_location: 'Brussels',
+  arrival_date: 2021-12-15T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 2
+}
+info: DAYS: 11
+info: {"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89,"msg":"SUCCESS"}
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:16:45~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: 0.F84F6A9E7E1E2
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.F84F6A9E7E1E2',
+  tokenExpired: 2021-12-04T09:18:52.284Z
+}
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:18:14~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: 0.F84F6A9E7E1E2
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.F84F6A9E7E1E2',
+  tokenExpired: 2021-12-04T09:18:52.284Z
+}
+info: REQ: Get specific flight number 2
+info: RES: SUCCESS authentication test
+info: {
+  _id: new ObjectId("61a9e79f3f5d13ef0b21174c"),
+  departure_date: 2021-12-14T00:00:00.000Z,
+  departure_location: 'Brussels',
+  arrival_date: 2021-12-15T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 2
+}
+info: DAYS: 11
+info: {"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89,"msg":"SUCCESS"}
+info: {"status":"success","flight":{"_id":"61a9e79f3f5d13ef0b21174c","departure_date":"2021-12-14T00:00:00.000Z","departure_location":"Brussels","arrival_date":"2021-12-15T00:00:00.000Z","arrival_location":"Tel-Aviv","id":2},"weatherOnArrival":{"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89,"msg":"SUCCESS"}}
+info: RES: get flight data number: 2
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:18:55~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: 0.F84F6A9E7E1E2
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.F84F6A9E7E1E2',
+  tokenExpired: 2021-12-04T09:18:52.284Z
+}
+info: RES: un-authorized: expired token
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: 0.73DE1BA6C8451
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.73DE1BA6C8451',
+  tokenExpired: 2021-12-04T09:29:03.879Z
+}
+info: REQ: Get specific flight number 2
+info: RES: SUCCESS authentication test
+info: {
+  _id: new ObjectId("61a9e79f3f5d13ef0b21174c"),
+  departure_date: 2021-12-14T00:00:00.000Z,
+  departure_location: 'Brussels',
+  arrival_date: 2021-12-15T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 2
+}
+info: DAYS: 11
+info: {"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89}
+info: {"status":"success","flight":{"_id":"61a9e79f3f5d13ef0b21174c","departure_date":"2021-12-14T00:00:00.000Z","departure_location":"Brussels","arrival_date":"2021-12-15T00:00:00.000Z","arrival_location":"Tel-Aviv","id":2},"weatherOnArrival":{"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89}}
+info: RES: get flight data number: 2
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:36:37~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: START authentication test
+info: 0.73DE1BA6C8451
+info: 
+info: REQ: Get specific flight number 0
+info: RES: un-authorized: wrong token
+info: 
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:41:10~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:41:16~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: START authentication test
+info: 0.73DE1BA6C8451
+info: 
+info: REQ: Get specific flight number 0
+info: RES: un-authorized: wrong token
+info: 
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:50:4~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: START authentication test
+info: pm.collectionVariables.get("auth key");
+info: 
+info: REQ: Get specific flight number 0
+info: RES: un-authorized: wrong token
+info: 
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:51:7~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: START authentication test
+info: collectionVariables.auth key
+info: 
+info: REQ: Get specific flight number 0
+info: RES: un-authorized: wrong token
+info: 
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 11:56:9~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: START authentication test
+info: 0.099D0F8555346
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.099D0F8555346',
+  tokenExpired: 2021-12-04T10:06:12.836Z
+}
+info: REQ: Get specific flight number 0
+info: RES: SUCCESS authentication test
+info: 
+info: RES: Didn't find flight number: 0!
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: 0.099D0F8555346
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.099D0F8555346',
+  tokenExpired: 2021-12-04T10:06:12.836Z
+}
+info: REQ: Get specific flight number 2
+info: RES: SUCCESS authentication test
+info: {
+  _id: new ObjectId("61a9e79f3f5d13ef0b21174c"),
+  departure_date: 2021-12-14T00:00:00.000Z,
+  departure_location: 'Brussels',
+  arrival_date: 2021-12-15T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 2
+}
+info: DAYS: 11
+info: {"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89}
+info: {"status":"success","flight":{"_id":"61a9e79f3f5d13ef0b21174c","departure_date":"2021-12-14T00:00:00.000Z","departure_location":"Brussels","arrival_date":"2021-12-15T00:00:00.000Z","arrival_location":"Tel-Aviv","id":2},"weatherOnArrival":{"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89}}
+info: RES: get flight data number: 2
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: Get specific flight number 0
+info: RES: SUCCESS authentication test
+info: 
+info: RES: Didn't find flight number: 0!
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: Get specific flight number 2
+info: RES: SUCCESS authentication test
+info: {
+  _id: new ObjectId("61a9e79f3f5d13ef0b21174c"),
+  departure_date: 2021-12-14T00:00:00.000Z,
+  departure_location: 'Brussels',
+  arrival_date: 2021-12-15T00:00:00.000Z,
+  arrival_location: 'Tel-Aviv',
+  id: 2
+}
+info: DAYS: 11
+info: {"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89}
+info: {"status":"success","flight":{"_id":"61a9e79f3f5d13ef0b21174c","departure_date":"2021-12-14T00:00:00.000Z","departure_location":"Brussels","arrival_date":"2021-12-15T00:00:00.000Z","arrival_location":"Tel-Aviv","id":2},"weatherOnArrival":{"dt":1639526400,"humidity":64.79,"pressure":1019.79,"temp":{"average":15.01,"average_max":19.32,"average_min":10.91,"record_max":24,"record_min":2.99},"wind_speed":2.89}}
+info: RES: get flight data number: 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: Get specific flight number sdfsdf
+info: RES: SUCCESS authentication test
+info: RES: input is nan error "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: Get all flights
+info: RES: SUCCESS authentication test
+info: RES: get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: POST add an flight
+info: RES: SUCCESS authentication test
+info: RES: add flight number 4
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: POST add an flight
+info: RES: SUCCESS authentication test
+info: RES: INPUT ERROR
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: Get all flights
+info: RES: SUCCESS authentication test
+info: RES: get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: delete specific flight number 3
+info: RES: SUCCESS authentication test
+info: RES: delete flight number: 3
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: delete specific flight number 5
+info: RES: SUCCESS authentication test
+info: RES: Didn't find flight number: 5!
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: delete specific flight number fsfsdfs
+info: RES: SUCCESS authentication test
+info: RES: input is nan error "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: Get all flights
+info: RES: SUCCESS authentication test
+info: RES: get all flights
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: update an flight number: 1
+info: RES: SUCCESS authentication test
+info: GOT REQ: method- PATCH url- /api/flights/6
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: update an flight number: 6
+info: RES: SUCCESS authentication test
+info: RES: Didn't find flight number: 6!
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: 0.690AC92D0DC3A
+info: {
+  _id: new ObjectId("61ab11793f5d13ef0b9decf3"),
+  id: 3,
+  firstName: 'Free eater1',
+  lastName: 'Free eater11',
+  tokenPass: '0.690AC92D0DC3A',
+  tokenExpired: 2021-12-04T10:09:03.129Z
+}
+info: REQ: Get all flights
+info: RES: SUCCESS authentication test
+info: RES: get all flights

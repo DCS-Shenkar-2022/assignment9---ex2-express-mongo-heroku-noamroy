@@ -56,7 +56,6 @@ exports.flightsController = {
                     await axios.request(weatherRequest).then(function (weatherResponse) {
                         var weatherData = weatherResponse.data;
                         weatherData=(weatherData.list)[Difference_In_Days];
-                        weatherData.msg= "SUCCESS";
                         jsonAnswer.weatherOnArrival=weatherData;
                         logger.info(JSON.stringify(weatherData));
                     }).catch(function (error) {

@@ -1,5 +1,7 @@
-const winston_lib = require('winston');
+//~~~~~~~~INCLUDES~~~~~~~~~~~~~
 const User = require('../models/user');
+//~~~~~~~~LOGGER SET UP~~~~~~~~~~~~~
+const winston_lib = require('winston');
 const logger = winston_lib.createLogger({
     level: 'debug',
     format: winston_lib.format.simple(),
@@ -8,12 +10,12 @@ const logger = winston_lib.createLogger({
         new winston_lib.transports.Console()
     ]
 });
-/*~~~~~~~~~~GENERATE TOKKEN FUNCTIUON~~~~~*/
+//~~~~~~~~~~INNER FUNCTIONS~~~~~
 function generateAccessToken(username) {
     let str = Math.random().toString(16).toUpperCase();
     return '00000000'.slice(str.length) + str;
 }
-/*~~~~~~~~functions~~~~~~~~~~*/
+//~~~~~~~~EXPORTED FUNCTIONS~~~~~~~~~~
 exports.authorizationController = {
     async getToken(req, res) {
         let _id = req.body.id;

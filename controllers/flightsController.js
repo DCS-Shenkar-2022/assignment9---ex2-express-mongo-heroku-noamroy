@@ -1,6 +1,7 @@
-const { json } = require('express');
+//const { json } = require('express');
 const winston_lib = require('winston');
 const Flight = require('../models/flight');
+var axios = require("axios").default;
 const logger = winston_lib.createLogger({
     level: 'debug',
     format: winston_lib.format.simple(),
@@ -31,11 +32,45 @@ exports.flightsController = {
             res.status(400).send(`input is nan error "${_id}"!`); 
         }
         else{
-            const answer = await Flight.find({ id: Number(_id)})
+            var jsonAnswer = { status: "success", flight: {}, weatherOnArrival: {} };
+            var flightData = await Flight.find({ id: Number(_id)})
             .catch(err => logger.info(`Error getting the data from db: ${err}`));
-            if (answer.length!=0){
-                logger.info(`RES: get flight number: ${_id}`);
-                res.json(answer);
+            logger.info(flightData);
+            if (flightData.length!=0){
+                flightData = flightData[0];
+                jsonAnswer.flight=flightData;
+                const weatherRequest = {
+                    Method: 'GET',
+                    url: 'https://community-open-weather-map.p.rapidapi.com/climate/month?',
+                    params: { q: (flightData.arrival_location), units: 'metric'},
+                    headers: {
+                        'x-rapidapi-host': 'community-open-weather-map.p.rapidapi.com',
+                        'x-rapidapi-key': '0f9cb8c6e8msh9c5562e4a9ac404p160bb8jsn80fd719f356e'
+                    }
+                };
+                const currentdate = new Date();
+                const Difference_In_Time = flightData.arrival_date.getTime() - currentdate.getTime();
+                const Difference_In_Days = Math.round(Difference_In_Time / (1000 * 3600 * 24));
+                logger.info(`DAYS: ${Difference_In_Days}`);
+                if (Difference_In_Days<=30){
+                    await axios.request(weatherRequest).then(function (weatherResponse) {
+                        var weatherData = weatherResponse.data;
+                        weatherData=(weatherData.list)[Difference_In_Days];
+                        weatherData.msg= "SUCCESS";
+                        jsonAnswer.weatherOnArrival=weatherData;
+                        logger.info(JSON.stringify(weatherData));
+                    }).catch(function (error) {
+                        logger.info(`ERROR- GETTING WEATHER- ${error}`);
+                        jsonAnswer.weatherOnArrival = "ERROR- GETTING WEATHER";
+                    });
+                }
+                else{
+                    logger.info(`GETTING WEATHER NO DATA AVALIBLE- more than 30 days before arrival`);
+                    jsonAnswer.weatherOnArrival = "NO DATA AVALIBLE- more than 30 days before arrival";
+                }
+                logger.info(JSON.stringify(jsonAnswer));
+                logger.info(`RES: get flight data number: ${_id}`);
+                res.json(jsonAnswer);
             }
             else{
                 logger.info(`RES: Didn't find flight number: ${_id}!`);

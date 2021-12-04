@@ -12,7 +12,7 @@ const logger = winston_lib.createLogger({
 });
 /*~~~~~~~~~~GENERATE TOKKEN FUNCTIUON~~~~~*/
 function generateAccessToken(username) {
-    return jwt.sign(username, process.env.TOKEN_SECRET, {expiresIn: '600s'})
+    return jwt.sign(username, process.env.TOKEN_SECRET, {expiresIn: '6000s'})
 }
 /*~~~~~~~~functions~~~~~~~~~~*/
 exports.authorizationController = {
@@ -53,6 +53,7 @@ exports.authorizationController = {
                 return  res.status(403).send(`AUTHENTICATION ERROR!`);
             }
             req.user = user;
+            logger.info (`RES: SUCCESS authentication test`);
             next();
         });
     }

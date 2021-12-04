@@ -2887,3 +2887,151 @@ info: {
 info: REQ: Get all flights
 info: RES: SUCCESS authentication test
 info: RES: get all flights
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 12:46:29~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: GOT REQ: method- POST url- /auth/
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: GOT REQ: method- GET url- /api/flights/0
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get specific flight number 0
+info: RES: Didn't find flight number: 0!
+info: GOT REQ: method- GET url- /api/flights/2
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get specific flight number 2
+info: RES: get flight data number: 2
+info: GOT REQ: method- GET url- /api/flights/sdfsdf
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get specific flight number sdfsdf
+info: RES: input is nan error "sdfsdf"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: POST add an flight
+info: RES: add flight number 5
+info: GOT REQ: method- POST url- /api/flights/
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: POST add an flight
+info: RES: Input error!
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- DELETE url- /api/flights/3
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: delete specific flight number 3
+info: RES: Didn't find flight number: 3!
+info: GOT REQ: method- DELETE url- /api/flights/5
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: delete specific flight number 5
+info: RES: delete flight number: 5
+info: GOT REQ: method- DELETE url- /api/flights/fsfsdfs
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: delete specific flight number fsfsdfs
+info: RES: input is nan error "fsfsdfs"
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get all flights
+info: RES: get all flights
+info: GOT REQ: method- PATCH url- /api/flights/1
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: update an flight number: 1
+info: GOT REQ: method- PATCH url- /api/flights/6
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: update an flight number: 6
+info: RES: Didn't find flight number: 6!
+info: GOT REQ: method- GET url- /api/flights/
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get all flights
+info: RES: get all flights
+info: ~~~~~~~~~~~~~~~~Start session 4/12/2021 | 12:48:11~~~~~~~~~~~~~~~
+info: Express server is running on port 3000
+info: ~~~~~~GOT REQ: method- POST url- /auth/~~~~~~
+info: REQ: Get Token for id number 3
+info: RES: success generate token
+info: ~~~~~~GOT REQ: method- GET url- /api/flights/0~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get specific flight number 0
+info: RES: Didn't find flight number: 0!
+info: ~~~~~~GOT REQ: method- GET url- /api/flights/2~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get specific flight number 2
+info: RES: get flight data number: 2
+info: ~~~~~~GOT REQ: method- GET url- /api/flights/sdfsdf~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get specific flight number sdfsdf
+info: RES: input is nan error "sdfsdf"
+info: ~~~~~~GOT REQ: method- GET url- /api/flights/~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get all flights
+info: RES: get all flights
+info: ~~~~~~GOT REQ: method- POST url- /api/flights/~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: POST add an flight
+info: RES: add flight number 5
+info: ~~~~~~GOT REQ: method- POST url- /api/flights/~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: POST add an flight
+info: RES: Input error!
+info: ~~~~~~GOT REQ: method- GET url- /api/flights/~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get all flights
+info: RES: get all flights
+info: ~~~~~~GOT REQ: method- DELETE url- /api/flights/3~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: delete specific flight number 3
+info: RES: Didn't find flight number: 3!
+info: ~~~~~~GOT REQ: method- DELETE url- /api/flights/5~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: delete specific flight number 5
+info: RES: delete flight number: 5
+info: ~~~~~~GOT REQ: method- DELETE url- /api/flights/fsfsdfs~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: delete specific flight number fsfsdfs
+info: RES: input is nan error "fsfsdfs"
+info: ~~~~~~GOT REQ: method- GET url- /api/flights/~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get all flights
+info: RES: get all flights
+info: ~~~~~~GOT REQ: method- PATCH url- /api/flights/1~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: update an flight number: 1
+info: ~~~~~~GOT REQ: method- PATCH url- /api/flights/6~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: update an flight number: 6
+info: RES: Didn't find flight number: 6!
+info: ~~~~~~GOT REQ: method- GET url- /api/flights/~~~~~~
+info: REQ: START authentication test
+info: RES: SUCCESS authentication test
+info: REQ: Get all flights
+info: RES: get all flights

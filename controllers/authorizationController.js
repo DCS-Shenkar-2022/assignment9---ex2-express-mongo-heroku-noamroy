@@ -48,7 +48,6 @@ exports.authorizationController = {
     async authenticateToken(req, res, next) {
         logger.info (`REQ: START authentication test`);
         const authHeader = req.headers['authorization'];
-        logger.info (`${authHeader}`);
         if (authHeader == null){
             logger.info (`RES: un-authorized: no token`);
             res.status(401).json({status: 401 , msg: `un-authorized: no token`});
@@ -56,7 +55,6 @@ exports.authorizationController = {
         else{
             const user = await User.find({ tokenPass: authHeader})
                 .catch(err => logger.info(`Error getting the data from db: ${err}`));
-            logger.info(user);
             if (user.length!=0){
                 const nowTime = new Date();
                 if (nowTime<(user[0]).tokenExpired){

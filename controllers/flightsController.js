@@ -1,7 +1,8 @@
 //~~~~~~~~~INCLUDES~~~~~~~~~~~~
-const winston_lib = require('winston');
 const Flight = require('../models/flight');
 var axios = require("axios").default;
+//~~~~~~~~LOGGER SET UP~~~~~~~~
+const winston_lib = require('winston');
 const logger = winston_lib.createLogger({
     level: 'debug',
     format: winston_lib.format.simple(),
@@ -10,32 +11,38 @@ const logger = winston_lib.createLogger({
         new winston_lib.transports.Console()
     ]
 });
+//~~~~~~~EXPORTED FUNCTIONS~~~~~~~~~~
 exports.flightsController = {
     async getAllFlights(req, res) {
         logger.info(`REQ: Get all flights`);
         const answer = await Flight.find()
-            .catch(err => logger.info(`Error getting the data from db: ${err}`));
+            .catch(err => {
+                logger.info(`Error getting the data from db: ${err}`);
+                res.status(500).json({status: 500 , msg: `Server error`});
+            });
         if (answer.length!=0){
             logger.info(`RES: get all flights`);
             res.json(answer);
         }
         else{
             logger.info(`RES: NO FLIGHTS IN DB!`);
-            res.status(404).send(`RES: NO FLIGHTS IN DB!`); 
+            res.status(404).json({status: 404 , msg: `NO FLIGHTS IN DB!`});
         }
     },
     async getSpecificFlight(req, res) {
-        const _id = req.path.substring(1)
-        logger.info(`REQ: Get specific flight number ${_id}`);
-        if (isNaN(_id)){
-            logger.info(`RES: input is nan error "${_id}"`);
-            res.status(400).send(`input is nan error "${_id}"!`); 
+        const flight_id = req.path.substring(1)
+        logger.info(`REQ: Get specific flight number ${flight_id}`);
+        if (isNaN(flight_id)){
+            logger.info(`RES: input is nan error "${flight_id}"`);
+            res.status(400).json({status: 400 , msg: `input is nan error "${flight_id}"!`});
         }
         else{
             var jsonAnswer = { status: "success", flight: {}, weatherOnArrival: {} };
-            var flightData = await Flight.find({ id: Number(_id)})
-            .catch(err => logger.info(`Error getting the data from db: ${err}`));
-            logger.info(flightData);
+            var flightData = await Flight.find({ id: Number(flight_id)})
+                .catch(err => {
+                    logger.info(`Error getting the data from db: ${err}`);
+                    res.status(500).json({status: 500 , msg: `Server error`});
+                });
             if (flightData.length!=0){
                 flightData = flightData[0];
                 jsonAnswer.flight=flightData;
@@ -51,75 +58,78 @@ exports.flightsController = {
                 const currentdate = new Date();
                 const Difference_In_Time = flightData.arrival_date.getTime() - currentdate.getTime();
                 const Difference_In_Days = Math.round(Difference_In_Time / (1000 * 3600 * 24));
-                logger.info(`DAYS: ${Difference_In_Days}`);
                 if (Difference_In_Days<=30){
                     await axios.request(weatherRequest).then(function (weatherResponse) {
                         var weatherData = weatherResponse.data;
                         weatherData=(weatherData.list)[Difference_In_Days];
                         jsonAnswer.weatherOnArrival=weatherData;
-                        logger.info(JSON.stringify(weatherData));
                     }).catch(function (error) {
                         logger.info(`ERROR- GETTING WEATHER- ${error}`);
                         jsonAnswer.weatherOnArrival = "ERROR- GETTING WEATHER";
                     });
                 }
                 else{
-                    logger.info(`GETTING WEATHER NO DATA AVALIBLE- more than 30 days before arrival`);
+                    logger.info(`GETTING WEATHER-NO DATA AVALIBLE- more than 30 days before arrival`);
                     jsonAnswer.weatherOnArrival = "NO DATA AVALIBLE- more than 30 days before arrival";
                 }
-                logger.info(JSON.stringify(jsonAnswer));
-                logger.info(`RES: get flight data number: ${_id}`);
+                logger.info(`RES: get flight data number: ${flight_id}`);
                 res.json(jsonAnswer);
             }
             else{
-                logger.info(`RES: Didn't find flight number: ${_id}!`);
-                res.status(404).send(`RES: Didn't find flight number: ${_id}!`); 
+                logger.info(`RES: Didn't find flight number: ${flight_id}!`);
+                res.status(404).json({status: 404 , msg: `Didn't find flight number: ${flight_id}!`});
             }
         }
     },
     async createFlight(req, res) {
         logger.info(`REQ: POST add an flight`);
         let body = req.body;
-        let _id = await Flight.find();
-        _id = _id[(_id.length)-1].id+1;
+        let flight_id = await Flight.find();
+        if (flight_id.length!=0)
+            flight_id = flight_id[(flight_id.length)-1].id+1;
+        else
+            flight_id=1;
         if (body.departure_date &&
             body.departure_location &&
             body.arrival_date &&
             body.arrival_location &&
-            _id){
+            flight_id){
                 const newFlight = new Flight({
                     "departure_date": body.departure_date,
                     "departure_location": body.departure_location,
                     "arrival_date": body.arrival_date,
                     "arrival_location": body.arrival_location,
-                    "id": _id
+                    "id": flight_id
                 });
                 const result = newFlight.save();
                 if (result) {
                     logger.info(`RES: add flight number ${newFlight.id}`);
                     res.json(result);
                 } else {
-                    res.status(404).send("Error saving a flight");''
+                    res.status(500).json({status: 500 , msg: `Server error`});
                 }
         } else {
-            logger.info(`RES: INPUT ERROR`);
-            res.status(400).send(`INPUT ERROR!`); 
+            logger.info(`RES: Input error!`);
+            res.status(400).json({status: 400 , msg: `Input error!`});
         }
     },
     async updateFlight(req, res) {
-        const _id = req.path.substring(1);
-        logger.info(`REQ: update an flight number: ${_id}`);
-        if (isNaN(_id)){
-            logger.info(`RES: input is nan error "${_id}"`);
-            res.status(400).send(`input is nan error "${_id}"!`); 
+        const flight_id = req.path.substring(1);
+        logger.info(`REQ: update an flight number: ${flight_id}`);
+        if (isNaN(flight_id)){
+            logger.info(`RES: input is nan error "${flight_id}"`);
+            res.status(400).json({status: 400 , msg: `input is nan error "${flight_id}"!`});
         }
         else {
             let body = req.body;
-            let newFlight = await Flight.find({ id: Number(_id)})
-                .catch(err => logger.info(`Error getting the data from db: ${err}`));
+            let newFlight = await Flight.find({ id: Number(flight_id)})
+                .catch(err => {
+                    logger.info(`Error getting the data from db: ${err}`);
+                    res.status(500).json({status: 500 , msg: `Server error`});
+                });
             if (newFlight.length == 0){
-                logger.info(`RES: Didn't find flight number: ${_id}!`);
-                res.status(404).send(`RES: Didn't find flight number: ${_id}!`); 
+                logger.info(`RES: Didn't find flight number: ${flight_id}!`);
+                res.status(404).json({status: 404 , msg: `Didn't find flight number: "${flight_id}"!`});
             }
             else {
                 if (body.departure_date)
@@ -130,36 +140,44 @@ exports.flightsController = {
                     newFlight.arrival_date=body.arrival_date;
                 if (body.arrival_location)
                     newFlight.arrival_location=body.arrival_location;
-                Flight.updateOne({ id: _id }, {
+                Flight.updateOne({ id: flight_id }, {
                     departure_date: newFlight.departure_date,
                     departure_location: newFlight.departure_location,
                     arrival_date: newFlight.arrival_date,
                     arrival_location: newFlight.arrival_location})
                     .then(docs => {res.json(docs) })
-                    .catch(err => logger.info(`Error update one flight from db: ${err}`));
+                    .catch(err => {
+                        logger.info(`Error update one flight from db: ${err}`);
+                        res.status(500).json({status: 500 , msg: `Error update a flight`});
+                    });
             }
         }
     },
     async deleteFlight(req, res) {
-        const _id = req.path.substring(1);
-        logger.info(`REQ: delete specific flight number ${_id}`);
-        if (isNaN(_id)){
-            logger.info(`RES: input is nan error "${_id}"`);
-            res.status(400).send(`input is nan error "${_id}"!`); 
+        const flight_id = req.path.substring(1);
+        logger.info(`REQ: delete specific flight number ${flight_id}`);
+        if (isNaN(flight_id)){
+            logger.info(`RES: input is nan error "${flight_id}"`);
+            res.status(400).json({status: 500 , msg: `input is nan error "${flight_id}"!`});
         }
         else{
-            const answer = await Flight.find({ id: Number(_id)})
-            .catch(err => logger.info(`Error getting the data from db: ${err}`));
-            console.log("GOT HERE");
+            const answer = await Flight.find({ id: Number(flight_id)})
+            .catch(err => {
+                logger.info(`Error getting the data from db: ${err}`);
+                res.status(500).json({status: 500 , msg: `Server error`});
+            });
             if (answer.length!=0){
-                logger.info(`RES: delete flight number: ${_id}`);
-                Flight.deleteOne ({ id: Number(_id)})
+                logger.info(`RES: delete flight number: ${flight_id}`);
+                Flight.deleteOne ({ id: Number(flight_id)})
                 .then(docs => { res.json(docs)})
-                .catch(err => logger.info(`Error deleting flight from db: ${err}`));
+                .catch(err => {
+                    logger.info(`Error deleting flight from db: ${err}`);
+                    res.status(500).json({status: 500 , msg: `Server delete error`});
+                });
             }
             else{
-                logger.info(`RES: Didn't find flight number: ${_id}!`);
-                res.status(404).send(`RES: Didn't find flight number: ${_id}!`); 
+                logger.info(`RES: Didn't find flight number: ${flight_id}!`);
+                res.status(404).json({status: 404 , msg: `RES: Didn't find flight number: ${flight_id}!`});
             }
         }
     }
